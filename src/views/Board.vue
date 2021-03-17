@@ -48,6 +48,10 @@
 <script>
 import { mapState } from 'vuex'
 export default {
+  mounted() {
+    console.log(this.board)
+  },
+
   computed: {
     ...mapState(['board']),
 

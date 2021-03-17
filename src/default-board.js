@@ -18,12 +18,6 @@ export default {
           id: uuid(),
           userAssigned: null
         },
-        {
-          description: '',
-          name: 'and thrid',
-          id: uuid(),
-          userAssigned: null
-        }
       ]
     },
     {
@@ -45,7 +39,13 @@ export default {
           name: 'first task',
           id: uuid(),
           userAssigned: null
-        }
+        },
+        {
+          description: '',
+          name: 'and thrid',
+          id: uuid(),
+          userAssigned: null
+        },
       ]
     }
   ]
